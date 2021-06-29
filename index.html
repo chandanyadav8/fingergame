@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finger game</title>
+    <link rel="stylesheet" href="finger.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <span>
+            guess how many fingers holding up
+
+        </span> <br>
+
+        <input type="text" id="word" placeholder="enter your finger no.">
+        <button id="btn" onclick="change()">find</button> <br>
+        <label for="output">output</label>
+        <input type="text" id="output"> <br>
+        <label for="answer">actual finger </label>
+        <input type="text" id="fingerno">
+    </div>
+</body>
+<script>
+    function change() {
+        let wrd = document.getElementById("word").value;
+        var rwrd = Math.floor((Math.random() * 10) + 1);
+        if (wrd == rwrd) {
+            document.getElementById("output").value = "right answer"
+
+        }
+        else {
+            document.getElementById("output").value = "wrong answer"
+
+        }
+        document.getElementById("fingerno").value = rwrd;
+    }
+</script>
+
+</html>

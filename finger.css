@@ -1,0 +1,89 @@
+body {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-size: 25px;
+    background-color: rgb(154, 163, 23);
+}
+
+#word {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+#btn {
+    background-color:black;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    width: 63px;
+    height: 31px;
+
+}
+
+#word {
+    border-block-width: 5px;
+    width: 250px;
+    height: 20px;
+    margin: 2px 0px 3px 4px;
+}
+
+#output {
+    border-block-width: 2px;
+    width: 250px;
+    height: 30px;
+    margin: 2px 0px 3px 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fingerno {
+    border-block-width: 2px;
+    width: 250px;
+    height: 30px;
+    margin: 2px 0px 3px 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    width: 63px;
+    height: 31px;
+    
+
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border-style: inset;
+}
